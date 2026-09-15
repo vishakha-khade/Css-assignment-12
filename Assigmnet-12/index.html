@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Buttons and Box Model</title>
+
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+        .box1 {
+            width: 500px;
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+            background-color: white;
+        }
+        .box2 {
+            width: 500px;
+            margin: 40px 0 30px 80px;
+            padding: 25px 30px;
+            border: 2px solid darkblue;
+            border-radius: 15px;
+            box-shadow: 8px 8px 15px lightgray;
+            background-color: white;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        .btn1 {
+            background-color: blue;
+            color: white;
+            border: none;
+        }
+
+        .btn2 {
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        .btn3 {
+            background-color: orange;
+            color: black;
+            border: none;
+        }
+
+        .btn4 {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+
+        .btn5 {
+            background-color: white;
+            color: purple;
+            border: 2px solid purple;
+        }
+
+        .btn6 {
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .btn7 {
+            background-color: pink;
+            color: black;
+            border: 2px solid hotpink;
+            padding: 15px 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Box Model and Buttons</h1>
+
+    <p>
+        This is a simple webpage created to practice margin, padding,
+        border, box model and box shadow using internal CSS.
+    </p>
+
+    <h2>Paragraph Boxes</h2>
+
+    <div class="box1">
+        <h3>First Box</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatem, aliquam. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. This paragraph has margin, padding, border
+            and box shadow.
+        </p>
+    </div>
+
+    <div class="box2">
+        <h3>Second Box</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Praesentium doloremque, molestias atque. This box uses
+            different margin and padding values along with border radius
+            and box shadow.
+        </p>
+    </div>
+
+    <h2>Different Buttons</h2>
+
+    <button class="btn1">Primary</button>
+    <button class="btn2">Success</button>
+    <button class="btn3">Warning</button>
+    <button class="btn4">Delete</button>
+    <button class="btn5">Learn More</button>
+    <button class="btn6">Login</button>
+    <button class="btn7">Submit</button>
+
+</body>
+</html>
